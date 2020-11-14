@@ -1,0 +1,8 @@
+C:\Users\GS-0108\scm_usb\app_ejm>cd target
+
+C:\Users\GS-0108\scm_usb\app_ejm\target>move app_ejm-1.0.0.jar ./
+Se han movido         1 archivos.
+
+C:\Users\GS-0108\scm_usb\app_ejm\target>certutil -hashfile app_ejm-1.0.0.jar | findstr /v hash > archivohuellasJAR.txt
+
+C:\Users\GS-0108\scm_usb\app_ejm\target>
